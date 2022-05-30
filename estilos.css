@@ -1,0 +1,25 @@
+article{
+    border: solid 2px black;
+}
+
+/*Habilitamos la pagina para ordenadores y tablets.*/
+@media screen and (min-width: 913px){
+	section{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    article{
+        background-color: blanchedalmond;
+    }
+}
+
+  /*Habilitamos la pagina para moviles.*/
+@media screen and (max-width: 912px){
+    section{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    article{
+        background-color: rgb(175, 154, 123);
+    }
+}
