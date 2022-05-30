@@ -1,5 +1,98 @@
-article{
-    border: solid 2px black;
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    text-align: center;
+    list-style:none;
+}
+
+.tituloContacto{
+    font-size: 1.6em;
+}
+
+.iconoBaloncesto{   
+    width: 10%;
+}
+
+.iconosIntereses{   
+    width: 10%;
+    margin-left: 5%;
+}
+
+.contacto{
+    background-color: rgb(238, 157, 34);
+    text-align: center;
+    color: white;
+}
+
+.idiomas{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+.alumno{
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+.titulo{
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.iconoEstudios{
+    float: left;
+    width: 60px;
+}
+
+#estudio1{
+    width: 100%;
+    height: 20%;
+}
+
+#estudio2{
+    width: 100%;
+    height: 20%;
+}
+
+.letrasGrises{
+    color: rgb(51, 50, 50);
+}
+
+.ciclo{
+    color: rgb(41, 41, 41);
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+.nombreInstituto{
+    color: rgb(80, 79, 79);
+    margin-left: 25%;
+}
+
+.alum{
+    font-size: 2em;
+}
+
+.perfil{
+    background-color: white;
+}
+
+#textoPerfil{
+    margin-left: 5%;
+}
+
+h6{
+    background-color: rgb(170, 139, 3);
+    border-radius: 1.1em 1.1em 1.1em 1.1em;
+    width: fit-content;
+    padding: 2%;
+}
+
+.contacta{
+    background-color: rgb(141, 134, 123);
 }
 
 /*Habilitamos la pagina para ordenadores y tablets.*/
@@ -8,9 +101,6 @@ article{
         display: grid;
         grid-template-columns: auto auto;
     }
-    article{
-        background-color: blanchedalmond;
-    }
 }
 
   /*Habilitamos la pagina para moviles.*/
@@ -18,8 +108,5 @@ article{
     section{
         display: grid;
         grid-template-columns: auto;
-    }
-    article{
-        background-color: rgb(175, 154, 123);
     }
 }
