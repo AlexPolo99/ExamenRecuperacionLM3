@@ -4,23 +4,21 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://www.w3schools.com reglas.xsd">
 
-   <comunidad nombreComunidad ="Madrid">
-      <provincia nombreProvincia ="Madrid">
-         <poblacion nombrePoblacion ="Alcobendas">
+   <nivelEducativo nombreNivelEducativo ="Bachillerato">
+      <grupo nombreGrupo ="2ºA">
+         <alumno nombreAlumno ="Marcos">
 
-            <prediccion> 
-               <fecha>2022-03-01</fecha>
-               <tempMax>25</tempMax>
-               <tempMin>15</tempMin>
-               <probLluvia>20</probLluvia>
-            </prediccion>
+            <datos> 
+               <nombre>Alejandro</nombre>
+               <telefono>626291982</telefono>
+               <asignatura>Lengua</asignatura>
+            </datos>
 
-            <prediccion> 
-               <fecha>2022-03-02</fecha>
-               <tempMax>30</tempMax>
-               <tempMin>21</tempMin>
-               <probLluvia>0</probLluvia>
-            </prediccion>
+            <datos> 
+               <nombre>Alejandro</nombre>
+               <telefono>602239381</telefono>
+               <asignatura>Programacion</asignatura>
+            </datos>
 
          </poblacion>
       </provincia>
